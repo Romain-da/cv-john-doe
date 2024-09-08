@@ -18,6 +18,12 @@ Suivez les étapes ci-dessous pour installer et lancer le projet localement :
 ## Accéder au répétoire du projet
 cd cv-john-doe
 
+## installer bootstrap
+npm install react-bootstrap bootstrap
+
+## installer react router
+npm install react-router-dom
+
 ## installer les dépendance du projet
 npm install
 
