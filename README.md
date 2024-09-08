@@ -1,8 +1,28 @@
-# React + Vite
+# React cv-john-doe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Prérequis
 
-Currently, two official plugins are available:
+Avant de commencer, assurez-vous que vous avez les logiciels suivants installés sur votre machine :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Node.js](https://nodejs.org/) (version 14.x ou supérieure)
+- [npm](https://www.npmjs.com/) (version 6.x ou supérieure) ou [Yarn](https://yarnpkg.com/)
+
+## Installation
+
+Suivez les étapes ci-dessous pour installer et lancer le projet localement :
+
+1. Clonez le dépôt du projet :
+
+   ```bash
+
+## Accéder au répétoire du projet
+cd cv-john-doe
+
+## installer les dépendance du projet
+npm install
+
+## lancer le projet
+npm run dev
+
+## déploiment
+npm run build

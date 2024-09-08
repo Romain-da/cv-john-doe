@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/css/Footer.css';
+import gitHub from '../assets/img/github.png';
+import twitterImg from '../assets/img/twitter.png';
+import linkedIn from '../assets/img/linkedin.png';
 
 const Footer = () => {
   return (
@@ -13,14 +16,14 @@ const Footer = () => {
             <p>40 Rue Laure Diebold<br />69009 Lyon, France</p>
             <p>Téléphone : 06 20 30 40 50</p>
             <div>
-              <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-github fa-2x text-light mr-3"></i>
+              <a href="https://api.github.com/users/github-john-doe/repos" target="_blank" rel="noopener noreferrer">
+                <img src={gitHub} height='24px' /><i className="fab fa-github fa-2x text-light mr-3"></i>
               </a>
-              <a href="https://twitter.com/johndoe" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-twitter fa-2x text-light mr-3"></i>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+              <img src={twitterImg} height='24px' /><i className="fab fa-twitter fa-2x text-light mr-3"></i>
               </a>
               <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin fa-2x text-light"></i>
+              <img src={linkedIn} height='24px' /><i className="fab fa-linkedin fa-2x text-light"></i>
               </a>
             </div>
           </div>

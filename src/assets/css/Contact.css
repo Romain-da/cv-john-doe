@@ -1,3 +1,26 @@
+/* Appliquer à tout le contenu de la page */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center; 
+}
+
+#root {
+  width: 100%;  /* Occupe toute la largeur de la page */
+  height: 100%; /* Occupe toute la hauteur de la page */
+  justify-content: center; /* Centre horizontalement */
+  align-items: flex-start; /* Centre uniquement horizontalement */
+}
+
+.container {
+  width: 80%; /* Ajustez selon la taille désirée de votre contenu */
+  max-width: 1200px; /* Largeur maximale de la page */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box; 
+}
 .contact-page {
     background-image: url('../img/contact-bg.jpg'); /* Lien vers votre image */
     background-size: cover;
