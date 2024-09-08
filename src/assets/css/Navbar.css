@@ -1,0 +1,62 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #1f1f1f;
+  padding: 0.8rem 1rem; /* Ajuste l'espacement en haut et en bas */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-left: 15px;
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #cccccc !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    border-color: transparent;
+  }
+
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,59 @@
+.banner {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .service-card {
+    background-color: #f8f9fa; /* Couleur de fond des cartes */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    transition: transform 0.3s ease; /* Animation au hover */
+    height: 100%; /* Prend toute la hauteur de la colonne */
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px); /* Légère élévation au survol */
+  }
+  
+  .service-icon {
+    color: #007bff; /* Couleur des icônes */
+  }
+  
+  .service-title {
+    font-size: 1.5rem; /* Taille du titre */
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .service-text {
+    font-size: 1rem;
+    color: #6c757d; /* Couleur du texte des services */
+  }
+  
+  .divider {
+    width: 50px;
+    border-top: 3px solid #007bff;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      height: 200px;
+    }
+  
+    .service-icon {
+      font-size: 2rem; /* Taille réduite pour mobile */
+    }
+    
+    .service-title {
+      font-size: 1.25rem;
+    }
+  
+    .service-card {
+      margin-bottom: 20px;
+    }
+  }
+  

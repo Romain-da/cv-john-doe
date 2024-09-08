@@ -1,0 +1,48 @@
+.contact-page {
+    background-image: url('../img/contact-bg.jpg'); /* Lien vers votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* S'assure que le fond couvre tout l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fond blanc avec transparence */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  /* Media Queries pour la compatibilité mobile et tablette */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 20px;
+    }
+  
+    .contact-page {
+      padding: 20px;
+      background-position: top;
+    }
+  
+    iframe {
+      height: 250px; /* Réduire la hauteur de la carte sur mobile */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact-page {
+      background-position: top;
+      background-size: cover;
+      padding: 10px;
+    }
+  
+    iframe {
+      height: 200px; /* Encore plus petit sur les petits appareils */
+    }
+  }
+  

@@ -1,0 +1,106 @@
+
+.hero {
+  background-image: url('../img/hero-bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Progress Bars */
+.progress {
+  background-color: #eee;
+  height: 25px;
+}
+
+.progress-bar {
+  background-color: #0d6efd;
+  line-height: 25px;
+  color: #fff;
+}
+
+/* Grille de la section */
+.about-section .row {
+  display: flex; 
+  flex-wrap: wrap; /* Empêche le débordement */
+}
+
+/* Pour s'assurer que chaque boîte utilise bien 50% de la largeur */
+.about-box, .skills-box {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pour un meilleur alignement des titres */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Barres de progression */
+.progress-bar-react {
+  background-color: #007bff; /* Couleur principale */
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress-bar-php {
+  background-color: green; /* Couleur principale */
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress-bar-js {
+  background-color: yellow; /* Couleur principale */
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress-bar-css {
+  background-color: blue; /* Couleur principale */
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress-bar-html {
+  background-color: red; /* Couleur principale */
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
