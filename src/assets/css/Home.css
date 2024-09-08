@@ -127,3 +127,70 @@ body, html {
   text-align: center;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .legal-notices {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Style général pour l'image des compétences */
+.competences-image {
+  width: 100%;  /* L'image prendra toute la largeur de son conteneur */
+  height: auto; /* Laisse le navigateur ajuster automatiquement la hauteur */
+  border-radius: 5px; /* Ajout d'une bordure arrondie pour un style plus doux */
+}
+
+/* Pour les tablettes (écrans jusqu'à 768px de large) */
+@media (max-width: 768px) {
+  .about-box, .skills-box {
+    flex: 1 1 100%; /* Les boîtes prendront toute la largeur */
+    margin-bottom: 20px; /* Ajoute un espace entre les boîtes */
+  }
+  
+  .competences-image {
+    width: 100%; /* L'image s'adapte à la largeur de son conteneur */
+    height: auto; /* Maintient le ratio d'aspect */
+  }
+}
+
+/* Pour les mobiles (écrans jusqu'à 480px de large) */
+@media (max-width: 480px) {
+  .about-box, .skills-box {
+    padding: 10px; /* Réduction de l'espacement interne pour s'adapter aux petits écrans */
+  }
+
+  .competences-image {
+    width: 100%; /* L'image s'ajustera à la largeur du conteneur */
+    height: auto; /* Maintient le ratio d'aspect */
+  }
+
+  h1 {
+    font-size: 1.3rem; /* Réduction de la taille du texte pour les petits écrans */
+  }
+
+  /* Ajustement des barres de progression */
+  .progress-bar {
+    height: 20px; /* Réduction de la hauteur des barres de progression */
+    line-height: 20px; /* Ajuste la ligne de base du texte à la nouvelle hauteur */
+  }
+}
