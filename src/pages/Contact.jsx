@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import '../assets/css/Contact.css';  // Ajoutez votre fichier CSS personnalisé
-import contactBg from '../assets/img/contact-bg.jpg';  // Importez l'image d'arrière-plan
+import '../assets/css/Contact.css';  
+import contactBg from '../assets/img/contact-bg.jpg';  
 
 const Contact = () => {
   return (

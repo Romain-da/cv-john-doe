@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/css/LegalNotices.css'; // Importer le fichier CSS
+import '../assets/css/LegalNotices.css'; 
 
 const LegalNotices = () => {
   const [isHostVisible, setHostVisible] = useState(false);

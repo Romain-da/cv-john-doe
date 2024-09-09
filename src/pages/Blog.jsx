@@ -112,7 +112,7 @@ const Blog = () => {
             </Card.Footer>
           </Card>
         </Col>
-        {/* Répéter pour les 5 autres articles */}
+        {/* Répéter pour les autres articles */}
         {/* ... */}
       </Row>
     </Container>

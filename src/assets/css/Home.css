@@ -84,7 +84,7 @@ body, html {
 
 /* Barres de progression */
 .progress-bar-react {
-  background-color: #007bff; /* Couleur principale */
+  background-color: #007bff; 
   height: 25px;
   line-height: 25px;
   color: #fff;
@@ -93,7 +93,7 @@ body, html {
 }
 
 .progress-bar-php {
-  background-color: green; /* Couleur principale */
+  background-color: green; 
   height: 25px;
   line-height: 25px;
   color: #fff;
@@ -102,7 +102,7 @@ body, html {
 }
 
 .progress-bar-js {
-  background-color: yellow; /* Couleur principale */
+  background-color: yellow; 
   height: 25px;
   line-height: 25px;
   color: #fff;
@@ -111,7 +111,7 @@ body, html {
 }
 
 .progress-bar-css {
-  background-color: blue; /* Couleur principale */
+  background-color: blue; 
   height: 25px;
   line-height: 25px;
   color: #fff;
@@ -120,7 +120,7 @@ body, html {
 }
 
 .progress-bar-html {
-  background-color: red; /* Couleur principale */
+  background-color: red; 
   height: 25px;
   line-height: 25px;
   color: #fff;
